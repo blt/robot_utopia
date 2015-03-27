@@ -1,0 +1,15 @@
+{application, robot_utopia,
+ [{description, "An OTP application"}
+ ,{vsn, "0.1.0"}
+ ,{registered, []}
+ ,{mod, {'robot_utopia_app', []}}
+ ,{applications,
+   [kernel
+   ,stdlib
+   ,exometer_core
+   ,jiffy
+   ,jobs
+   ]}
+ ,{env,[]}
+ ,{modules, []}
+ ]}.
