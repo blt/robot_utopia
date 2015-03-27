@@ -17,6 +17,6 @@ release: compile
 	${REBAR} release
 
 console: release
-	./_build/default/rel/robot_utopia/bin/robot_utopia foreground
+	./_build/default/rel/robot_utopia/bin/robot_utopia console
 
 .PHONY: compile validate release all clean console

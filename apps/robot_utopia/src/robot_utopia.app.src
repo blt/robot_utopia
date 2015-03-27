@@ -7,7 +7,6 @@
    [kernel
    ,stdlib
    ,exometer_core
-   ,jiffy
    ,jobs
    ]}
  ,{env,[]}
